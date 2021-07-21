@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="filters">
+      <Filters />
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Filters from './components/Filters.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Filters
   }
 }
 </script>
@@ -23,4 +24,33 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.container{
+  display: flex;
+  height: 100px;
+}
+
+@media screen and (max-width: 2560px){
+    .filters{
+      width: 21%;
+    }
+  }
+
+  @media screen and (max-width: 2000px){
+    .filters{
+      width: 30%;
+    }
+  }
+
+@media screen and (max-width: 1440px){
+    .filters{
+      width: 42%;
+    }
+  }
+
+@media screen and (max-width: 1024px){
+    .filters{
+      width: 62%;
+    }
+  }
+
 </style>
