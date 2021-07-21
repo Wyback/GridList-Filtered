@@ -29,28 +29,4 @@ export default {
   height: 100px;
 }
 
-@media screen and (max-width: 2560px){
-    .filters{
-      width: 21%;
-    }
-  }
-
-  @media screen and (max-width: 2000px){
-    .filters{
-      width: 30%;
-    }
-  }
-
-@media screen and (max-width: 1440px){
-    .filters{
-      width: 42%;
-    }
-  }
-
-@media screen and (max-width: 1024px){
-    .filters{
-      width: 62%;
-    }
-  }
-
 </style>
